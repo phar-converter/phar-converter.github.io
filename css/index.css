@@ -1,0 +1,56 @@
+/*** Disable text selecting ***/
+.disable-select {
+	-webkit-user-select: none;  
+	-moz-user-select: none;	
+	-ms-user-select: none;	  
+	user-select: none;
+}
+
+/*** Body settings ***/
+body {
+	background-color: #212121;
+	text-align: center;
+	padding: 10px;
+	margin: 0;
+	color: #eeeeee;
+	font-family: 'Roboto Mono', monospace;
+}
+
+/*** Header ***/
+h1 {
+	font-size: 5vw;
+	color: #bdbdbd;
+	font-style: "bold"; 
+}
+
+/*** Number text input ***/
+.number-input {
+	background-color: #424242;
+	color: #bdbdbd;
+	border: 1px solid #e0e0e0;
+	width: 30px;
+}
+
+/*** File upload button ***/
+input[type="file"] {
+	display: none;
+}
+.file-upload-label {
+	border: 2px solid #e0e0e0;
+	background-color: #424242;
+	display: inline-block;
+	padding: 6px 12px;
+	cursor: pointer;
+}
+
+/*** Success block ***/
+.convert-success {
+	color: #66bb6a;
+	font-style: "Light";
+}
+
+/*** Error block ***/
+.error {
+	color: #e57373;
+	font-style: "Light";
+}
